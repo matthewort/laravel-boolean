@@ -1,1 +1,13 @@
 //
+body {
+    background-color: darkcyan;
+}
+
+div {
+    &.container {
+        color: white;
+    }
+    &.pluto h1 {
+        color: yellow;
+    }
+}

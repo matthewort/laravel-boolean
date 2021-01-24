@@ -20,3 +20,9 @@ Route::get('/', function () {
 Route::get('/helloAll', function () {
     return view('nocontroller');
 });
+
+Route::get('/helloYou', function () {
+    return view('nocontroller1', [
+        'name' => 'Mario'
+    ]);
+});
