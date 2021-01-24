@@ -23,6 +23,12 @@ Route::get('/helloAll', function () {
 
 Route::get('/helloYou', function () {
     return view('nocontroller1', [
-        'name' => 'Mario'
+        'name' => 'Johnny'
+    ]);
+});
+
+Route::get('/helloYou2', function () {
+    return view('nocontroller1', [
+        'name' => 'Mark'
     ]);
 });

@@ -14,9 +14,6 @@
     <h1>Hello {{ $name }}</h1>
     </div>
 
-    <div class="pluto">
-    <h1>Ciao Mondo</h1>
-    </div>
     
 </body>
 </html>
