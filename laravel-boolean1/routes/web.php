@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// SENZA CONTROLLER
+
 Route::get('/helloAll', function () {
     return view('nocontroller');
 });
@@ -33,8 +35,8 @@ Route::get('/helloYou2', function () {
     ]);
 });
 
-// Route::get('/holaTodo', function () {
-//     return view('nocontroller');
-// });
+// CON CONTROLLER
 
 Route::get('/holaTodo', 'Controller1@test');
+Route::get('/holaTu', 'Controller1@test1');
+Route::get('/holaTu2', 'Controller1@test2');

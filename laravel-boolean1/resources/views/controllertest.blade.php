@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Hola {{ $name }}</h1>
+        <h1>Hola Todos</h1>
     </div>
 </body>
 </html>
