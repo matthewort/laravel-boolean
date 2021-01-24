@@ -32,3 +32,9 @@ Route::get('/helloYou2', function () {
         'name' => 'Mark'
     ]);
 });
+
+// Route::get('/holaTodo', function () {
+//     return view('nocontroller');
+// });
+
+Route::get('/holaTodo', 'Controller1@test');
